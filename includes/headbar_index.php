@@ -50,7 +50,7 @@
   </style>
 </head>
 
-<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #fff; height: 88px;" >
+<nav style="display: flex;align-items: center;justify-content: center;padding-top: 78px;padding-bottom: 23px;">
     <img class="imagem" src="https://conectrom.com.br/wp-content/uploads/2021/06/conectrom-logo-v2.png">
 </nav>
 

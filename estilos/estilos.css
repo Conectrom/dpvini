@@ -1,5 +1,10 @@
 		body {
-			background: #eee;
+			/* background: #eee; */
+			background: url('../img/background.jpeg');
+			background-size: 100%;
+			background-repeat: no-repeat;
+			/* background-position: center; */
+					
 		}
 
 		.card {
@@ -26,7 +31,7 @@
 		}
 
 		.imagem {
-			width: 200px;
+			width: 388px;
 		}
 
 		.navbar {
@@ -40,3 +45,5 @@
 			flex-direction: column;
 			align-items: center;
 		}
+
+	

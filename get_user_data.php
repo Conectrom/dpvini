@@ -14,7 +14,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET') {
 
         $sql2 = "SELECT tp_sangue FROM tb_tp_sangue WHERE tb_trabalhador_id_trab = $sql_id";
 
-        $sql3 = "SELECT cpf_doc, identidade_doc, dt_emissao_identidade, orgao_identidade, habilitacao_doc, habilitacao_radio, habilitacao_categoria, dt_validade_habilitacao, ctps_doc, ctps_serie, digito_fgts, reservista, registro_prof, registro_prof_orgao, conta_corrente, nome_conta_corrente, agencia_conta_corrente, titulo_eleitor, titulo_zona, titulo_secao, pis, data_cadastramento, conta_fgts, data_opcao_fgts, banco_depositario_fgts 
+        $sql3 = "SELECT cpf_doc, identidade_doc, dt_emissao_identidade, orgao_identidade, habilitacao_doc, habilitacao_radio, habilitacao_categoria, dt_validade_habilitacao, ctps_doc, ctps_serie, reservista, registro_prof, registro_prof_orgao, conta_corrente, nome_conta_corrente, agencia_conta_corrente, titulo_eleitor, titulo_zona, titulo_secao, pis, data_cadastramento, conta_fgts, data_opcao_fgts, banco_depositario_fgts 
                    FROM tb_documentos 
                   WHERE tb_documentos_id_trab = $sql_id";
 
